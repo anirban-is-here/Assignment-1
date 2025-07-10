@@ -168,7 +168,8 @@ header div{
     text-align: center;
     font-size: 45px;
     font-weight: 700;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
+    margin-top: 0;
 }
 
 .review h3 {
