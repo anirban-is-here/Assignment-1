@@ -249,3 +249,35 @@ header div{
     margin-top: 10px;
     width: 119%;
 }
+
+/*footer section*/
+
+footer {
+    text-align: center;
+   
+}
+
+footer h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    color:  rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-main {
+    margin: 100px 450px;
+}
