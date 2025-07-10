@@ -31,6 +31,7 @@
 
 body {
     margin: 0 auto;
+    background-color: rgba(178, 177, 225, 0.1);
 }
 
 
@@ -121,14 +122,96 @@ header div{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #4E47FF;
+    margin-bottom: 0;
 }
 
 .productivity-container h2 {
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 850;
+    color: rgba(37, 36, 50, 1);
 }
 .user-info p{
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/**user revier section*/
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+
+.user-review {
+    padding: 130px 150px;
+    margin-top: 0px;
+}
+
+.review {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 50px 50px 20px rgba(0, 0, 0, 0.06);
+    padding: 24px;
+    width: 100%;
+    border-radius: 14px;
+    height: 245px;
+}
+
+.user-review h1 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.review h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviewer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.review p {
+    display: block;
+}
+
+/***news letter section*.*/
+.newsletter {
+    
+}
+
+.newsletter-main {
+    background-color: #FFFFFF;
+    margin: 40px 150px;
+    text-align: center;
+    padding: 60px 150px;
+    border-radius: 14px;
+
+}
+
+.newsletter-main img {
+    border-radius: 48px;
+}
+
+.newsletter-main h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.newsletter-main p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter-main button {
+    width: 160px;
+    margin-bottom: 20px;
 }
